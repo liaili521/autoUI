@@ -1,0 +1,61 @@
+05-19 17:15:07.613 D/Zygote  (20682): CtrlSocket libc.so ctrl_sockets_set_addr pfunc is not exist!
+05-19 17:15:07.613 I/ActivityManager( 1127): Start proc 20682:com.android.calculator2/u0a29 for activity com.android.calculator2/.Calculator
+05-19 17:15:07.653 D/ActivityThread(20682): ActivityThread,attachApplication
+05-19 17:15:07.653 D/ActivityManager( 1127): ActivityManagerService,attachApplication,callingPid = 20682
+05-19 17:15:07.653 V/ActivityManager( 1127): New app record ProcessRecord{3fd6085 20682:com.android.calculator2/u0a29} thread=android.os.BinderProxy@228ceda pid=20682
+05-19 17:15:07.703 D/HwCust  (20682): Create obj success use class android.content.res.HwCustHwResourcesImpl
+05-19 17:15:07.723 W/System  (20682): ClassLoader referenced unknown path: /system/app/Calculator/lib/arm64
+05-19 17:15:07.733 V/HwPolicyFactory(20682): : success to get AllImpl object and return....
+05-19 17:15:07.733 V/HwWidgetFactory(20682): : successes to get AllImpl object and return....
+05-19 17:15:07.733 V/ActivityThread(20682): ActivityThread,callActivityOnCreate
+05-19 17:15:07.753 I/HwCust  (20682): Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+05-19 17:15:07.753 D/HwCust  (20682): Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+05-19 17:15:07.873 D/OpenGLRenderer(20682): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+05-19 17:15:07.943 I/Adreno  (20682): QUALCOMM build                   : d28da0e, Iec24cdb30f
+05-19 17:15:07.943 I/Adreno  (20682): Build Date                       : 03/10/16
+05-19 17:15:07.943 I/Adreno  (20682): OpenGL ES Shader Compiler Version: XE031.06.00.05
+05-19 17:15:07.943 I/Adreno  (20682): Local Branch                     : 
+05-19 17:15:07.943 I/Adreno  (20682): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.BR.1.2.6_RB1.06.00.01.179.013
+05-19 17:15:07.943 I/Adreno  (20682): Remote Branch                    : NONE
+05-19 17:15:07.943 I/Adreno  (20682): Reconstruct Branch               : NOTHING
+05-19 17:15:07.943 I/OpenGLRenderer(20682): Initialized EGL, version 1.4
+05-19 17:15:07.963 V/BitmapFactoryEx(20682): nativeDecodeFileDescriptorEx
+05-19 17:15:07.983 W/View    (20682): requestLayout() improperly called by com.android.calculator2.CalculatorEditText{f81ce78 VFED..CL. ......ID 42,0-1056,306} during layout: running second layout pass
+05-19 17:15:08.003 W/View    (20682): requestLayout() improperly called by com.android.calculator2.CalculatorEditText{f81ce78 VFED..CL. .F....ID 42,0-1056,306} during layout: running second layout pass
+05-19 17:15:08.043 W/View    (20682): requestLayout() improperly called by com.android.calculator2.CalculatorEditText{f81ce78 VFED..CL. .F...... 42,37-1056,306} during second layout pass: posting in next frame
+05-19 17:15:08.043 V/ViewRootImpl(20682): doRelayoutAsyncly requestLayout
+05-19 17:15:08.493 V/NSD     (20682): NSD readNsdSupportProperty  :  315
+05-19 17:15:08.493 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:08.723 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:08.723 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:09.233 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:09.403 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:09.403 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:09.913 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:10.073 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:10.073 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:10.583 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:10.763 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:10.763 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:11.273 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:11.433 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:11.433 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:11.943 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:12.103 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:12.103 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:12.613 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:12.793 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:12.793 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:13.293 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:13.503 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:13.503 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:14.013 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:14.193 V/AudioManager(20682): playSoundEffect   effectType: 0
+05-19 17:15:14.193 V/AudioManager(20682): querySoundEffectsEnabled...
+05-19 17:15:14.203 W/View    (20682): requestLayout() improperly called by com.android.calculator2.CalculatorEditText{8861d62 VFED..CL. .F....ID 42,0-1056,306} during layout: running second layout pass
+05-19 17:15:14.703 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:15.203 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:15.703 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:16.213 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:16.713 D/NSD     (20682): curPkgName is not in list
+05-19 17:15:17.213 D/NSD     (20682): curPkgName is not in list

@@ -11,6 +11,8 @@ from Config import Config as config
 import time
 
 def startLanch(driver):
+    #启动wetest
+    '''
     driver.find_element_by_id("com.tencent.wefpmonitor:id/generic_layout").click()
     resource_id = "com.tencent.wefpmonitor:id/okbutton"
     if eo.waitElementById(driver, resource_id):
@@ -18,6 +20,9 @@ def startLanch(driver):
     resource_id = "com.tencent.wefpmonitor:id/btnstart"
     if eo.waitElementById(driver, resource_id):
         driver.find_element_by_id(resource_id).click()
+    '''
+    #点击确认按钮
+    '''
     try:
         time.sleep(3)
         exew , exeh = adpt.getExecuteWH(driver)
@@ -25,6 +30,23 @@ def startLanch(driver):
         driver.tap([adpt.exeAdaption(config.loadingok[0], config.loadingok[1], exewh)], 100)
     except:
         print traceback.format_exc()
+    '''
+    try:
+        time.sleep(3)
+        exew , exeh = adpt.getExecuteWH(driver)
+        exewh = (exew, exeh)
+        print(exewh)
+        driver.tap([adpt.exeAdaption(config.selectenv[0], config.selectenv[1], exewh)], 100)
+    except:
+        print traceback.format_exc()
+    for i in range(0,10):
+        print(i)
+        time.sleep(2)
+        pc.getScreenShot(driver, "screenshot")
+        centerlist = pc.pictureCompare("screenshot.jpg", "temp_notify_19201080.jpg")
+        if centerlist[0] != (-1, -1):
+            driver.tap([adpt.exeAdaption(config.tempclose[0], config.tempclose[1], exewh)], 100)
+            break
     for i in range(0,10):
         print(i)
         time.sleep(2)

@@ -62,6 +62,7 @@ def pictureCompare(srcName, dstName):
         '''
         center = (top_left[0] + w/2, top_left[1] + h/2)
         centerlist.append(center)
+        print(centerlist)
     if not pointCompare(centerlist):
         centerlist = FalsePointList
     return centerlist

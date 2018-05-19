@@ -13,8 +13,8 @@ allcase='E:\\AutoUI\TestCase'     #指明要自动查找的py文件所在文件�
 #添加每个module里面单独的测试用例
 def getTestSuite1():
     suite = unittest.TestSuite()
-    #suite.addTest(TestCalculator.TestCalulator("testAdd"))
-    suite.addTest(TestWeTest.TestWeTest("testStreet"))
+    suite.addTest(TestCalculator.TestCalulator("testAdd"))
+    #suite.addTest(TestWeTest.TestWeTest("testStreet"))
     #suite.addTest(TestScreenShot.TestScreenShot("testScreenShot"))
     return suite
 
